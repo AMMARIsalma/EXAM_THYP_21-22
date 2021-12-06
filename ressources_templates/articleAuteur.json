@@ -1,0 +1,55 @@
+{
+    "o:label": "articleAuteur",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/AMMARIsalma\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Artcil",
+            "local_name": "adult",
+            "label": "adult"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/AMMARIsalma\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Artcil",
+            "local_name": "enfant",
+            "label": "enfant"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/AMMARIsalma\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Artcil",
+            "local_name": "media",
+            "label": "media"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/AMMARIsalma\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Artcil",
+            "local_name": "nbrpersonne",
+            "label": "nombre personne"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/AMMARIsalma\/EXAM_THYP_21-22#",
+        "vocabulary_label": "Artcil",
+        "local_name": "auteur",
+        "label": "auteur"
+    }
+}
