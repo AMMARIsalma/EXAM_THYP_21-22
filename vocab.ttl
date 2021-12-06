@@ -4,12 +4,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix student: <https://github.com/AMMARIsalma/EXAM_THYP_21-22/vocab.ttl#> .
+@prefix articl: <https://github.com/AMMARIsalma/EXAM_THYP_21-22#> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://github.com/AMMARIsalma/EXAM_THYP_21-22/vocab.ttl#> a owl:Ontology ;
+<https://github.com/AMMARIsalma/EXAM_THYP_21-22#> a owl:Ontology ;
     dcterms:title "articl" .
 
 articl:auteur a rdfs:Class ;
@@ -50,6 +50,21 @@ articl:reference a rdf:Property ;
 
 articl:nbrpersonne a rdf:Property ;
     rdfs:label "nombre personne" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+articl:enfant a rdf:Property ;
+    rdfs:label "enfant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+articl:adult a rdf:Property ;
+    rdfs:label "adult" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+articl:largepub a rdf:Property ;
+    rdfs:label "large public" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
